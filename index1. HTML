@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<HTML>
+ <head>
+   <title>MY WEBSITE</title>
+   </head>
+  
+   <body>
+     <h1> STUDENT REGISTRATION FORM</h1>
+   <form>
+   <label for="NAME"> NAME  : </label>
+   <input type="text" id="NAME" Name="NAME" placeholder="NAME IN CAPITAL LETTER"><br><br>
+   
+    <label for="FATHER'S NAME"> FATHER'S NAME  : </label>
+   <input type="text"id="FATHER'S NAME" Name="FATHER'S NAME" placeholder="FATHER'S NAME IN CAPITAL LETTER"><br></br>
+   
+   <label for="MOTHER'S NAME"> MOTHER'S NAME : </label>
+   <input type="text" size="18" id="MOTHER'S NAME" Name="MOTHER'S NAME" placeholder="MOTHER'S NAME IN CAPITAL LETTER"><br><br>
+   
+    <label for="PHONE NO"> PHONE NO  : </label>
+   <input type="text" size="20"id="PHONE NO" Name="PHONE NO" placeholder="INPUT 10 DIGIT MOBILE NUMBER"><br></br>
+   
+  <!-- Email Section -->
+  <label for="email">EMAIL :</label>
+  <input type="email" size="25" id="email" placeholder="input your valid email id"><br><br>
+
+  <!-- Gender Section -->
+  <label>GENDER :</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">MALE</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">FEMALE</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">OTHER</label><br><br>
+
+  <!-- Date of Birth Section -->
+  <label for="dob">DATE OF BIRTH :</label>
+  <input type="date" id="dob"><br><br>
+
+  <!-- Address Section -->
+  <label for="address">ADDRESS :</label>
+  <input type="text" id="address" placeholder="Input your Permanent address"><br><br>
+
+  <!-- Blood Group Section -->
+  <label for="blood-group">BLOOD GROUP :</label>
+  <select id="blood-group">
+    <option value="">select</option>
+    <option value="A+">A+</option>
+    <option value="B+">B+</option>
+    <option value="O+">O+</option>
+    <option value="AB+">AB+</option>
+  </select><br><br>
+  
+   <h2><input type="submit" value="submit"></h2>
+
+</form> 
+
+</body>
+</html>
